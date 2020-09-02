@@ -88,3 +88,53 @@ gmake: *** [main.obj] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Clean-only build of configuration Debug for project single_phase_sin ****
+
+"D:\\ELC\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 clean -O 
+ 
+DEL /F  "single_phase_sin.hex"  "single_phase_sin.out" 
+DEL /F "main.obj" 
+DEL /F "main.d" 
+找不到 D:\GITHUP\single_phase_sin\single_phase_sin\single_phase_sin\Debug\single_phase_sin.hex
+找不到 D:\GITHUP\single_phase_sin\single_phase_sin\single_phase_sin\Debug\main.obj
+Finished clean
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project single_phase_sin ****
+
+"D:\\ELC\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"D:/ELC/CCS/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv4 --code_state=32 --include_path="D:/GITHUP/single_phase_sin/single_phase_sin/single_phase_sin" --include_path="D:/ELC/CCS/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 7: fatal error #13: expected a file name
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project single_phase_sin ****
+
+"D:\\ELC\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../main.c"
+Invoking: ARM Compiler
+"D:/ELC/CCS/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/bin/armcl" -mv4 --code_state=32 --include_path="D:/GITHUP/single_phase_sin/single_phase_sin/single_phase_sin" --include_path="D:/ELC/CCS/ccs/tools/compiler/ti-cgt-arm_18.12.4.LTS/include" -g --diag_warning=225 --diag_wrap=off --display_error_number --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'main.obj' failed
+"../main.c", line 7: fatal error #1965: cannot open source file "msp430f6638.h"
+1 catastrophic error detected in the compilation of "../main.c".
+Compilation terminated.
+gmake: *** [main.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

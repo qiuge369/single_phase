@@ -9,7 +9,7 @@ Invoking: ARM Compiler
  
 >> Compilation failure
 subdir_rules.mk:9: recipe for target 'main.obj' failed
-"../main.c", line 6: fatal error #1965: cannot open source file "msp430f6638.h"
+"../main.c", line 7: fatal error #1965: cannot open source file "msp430f6638.h"
 1 catastrophic error detected in the compilation of "../main.c".
 Compilation terminated.
 gmake: *** [main.obj] Error 1
